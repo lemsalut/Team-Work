@@ -1,4 +1,99 @@
-h1 {
-  font-family: garamond;
-  color: pink;
+body {
+  font-family: Garamond;
+  margin: 10px;
+  background-color: #FAF0E6;
+}
+
+.navbar a {
+  float: right;
+  display: flex;
+  padding: 15px 20px;
+}
+
+
+.navbar a:hover {
+  background-color: #BC8F8F;
+  color: black;
+}
+
+h2 {
+  margin-left: 50px;
+  color: #BC8F8F;
+}
+
+h4 {
+  margin-left: 50px;
+  color: #BC8F8F;
+}
+
+div.start {
+  color: #BC8F8F;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin-left: 50px;
+  flex-direction: column;
+}
+
+#carouselExampleIndicators img {
+  width: 100%;
+  height: calc(100vh - 56px - 50px);
+  object-fit: cover;
+}
+
+main {
+  flex: 1;
+}
+
+#subscribe {
+    text-align: center;
+    align-items: center;
+    width: 350px;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+#sand {
+  margin: 30px;
+  margin-left: 60px;
+}
+
+footer {
+  display: flex;  /* allows use of "justify-content" property */
+  justify-content: left;  /* horizontally centers the contents (the social icons) */
+  height: 100px;
+  padding: 20px;
+  margin-left: 150px;
+}
+
+footer a {
+  margin: 5px;
+  text-decoration: none!important;
+}
+
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #BC8F8F;
+}
+
+.social-icon {
+  display: inline-flex;  /* allows use of "justify-content" and "align-items" properties */
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: #800000;
+  justify-content: center;  /* horizontally centers the contents (the FontAwesome icon) */
+  align-items: center;  /* vertically centers the contents (the FontAwesome icon) */
+  border-radius: 50%;  /* makes it round (circle if width and height are the same) */
+}
+
+.social-icon:hover {
+  color: #222;  /* change color when hover over the link */
 }
